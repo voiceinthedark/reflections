@@ -1,0 +1,9 @@
+-What happens when you initialize a repository? Why do you need to do it?
+
+After running git init, the directory I am working in becomes a repository. The files are untracked but part of the repository.
+We need to init a git in order to make the present working directory a repository.
+
+-How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area works like a cache at an intermediate stage between the git repository and the working directory. These files in the staging area are files that are waiting to be committed yet has not been.
+The value the staging area give us is that offer us an option to reset and cancel any commit we need to make before adding the files and commit it to the repository.
