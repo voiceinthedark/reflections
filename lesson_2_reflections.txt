@@ -32,3 +32,7 @@ together, all without affecting the master branch of the repository.
 This way by branching at different stages of your repository history,
 you can know exactly when that experimental feature or code was added, without
 affecting the main master branch.
+
+-How do the diagrams help you visualize the branch structure?
+By having a diagram, one can easily find omitted commits that are left out from 
+the git commit history.
