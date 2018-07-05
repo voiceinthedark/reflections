@@ -44,3 +44,10 @@ By merging two branches together we make them part of the same master branch. He
 We represent it in a diagram as a master commit with parents pointing out to the two previous HEAD commit of those two branches.
 This master branch has a reference to both its parents and thus has a history
 of both branches' commit history and log
+
+-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The pros of automatic merging is that git takes care of all the merging that doesn't result in conflict and add them together tidly.
+The cons of manual merging is that it will become tedious work going through thousands of lines of code and merge them together manually. This is taken
+care of by git. Whenever a conflict arises, git will inform the user of such conflict. Doing a git diff will locate the conflict and it could be easily fixed
+manually.
