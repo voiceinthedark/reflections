@@ -36,3 +36,11 @@ affecting the main master branch.
 -How do the diagrams help you visualize the branch structure?
 By having a diagram, one can easily find omitted commits that are left out from 
 the git commit history.
+
+-What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+By merging two branches together we make them part of the same master branch. Hence the master branch will combine two codes into a single code file in a master branch.
+We represent it in a diagram as a master commit with parents pointing out to the two previous HEAD commit of those two branches.
+This master branch has a reference to both its parents and thus has a history
+of both branches' commit history and log
