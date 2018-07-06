@@ -1,0 +1,7 @@
+-When would you want to use a remote repository rather than keeping all your work local?
+
+Plenty of situations require remote repository in addition to a local one. For example a collaborative project requires 
+a central repository so that a group can work on the same project together.
+Another benefit of remote repository is the fact that it's a cloud copy of your local work; hence even if collaborative
+work is not required, having a backup place that stores the same project is a safeguard in case your project got deleted; 
+hard drive got corrupted or stolen...
