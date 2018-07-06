@@ -9,3 +9,21 @@ hard drive got corrupted or stolen...
 -Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 if a user is satified with the current version locally and working on different branches trying to experiment or adding new features. In this case it is not valid to sync automatically with the remote; rather wait and do pulls when the current work is done locally, especially in a collaborative environment.
+
+-Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Forking is cloning a repository on github into your account on the site; you will
+have a fork to that repository at your own repo.
+	Cloning is the operation of making an exact copy, a clone on your local machine
+to either a cloud repository (remote) or another local repository on your local
+machine.
+	Branching is the method of having an exact copy of a node on the commit 
+history along with its entire history.
+
+Forking would be used in case a user decide to have a copy of a non-owned remote
+repo into your own remote repository.
+Cloning is mainly used to clone a copy a remote repository into your local machine; or to have another copy of a local repo.
+Branching is mainly used to add features or experiment on top of the master branch
+without affecting the master branch version, and testing everything before merging 
+the working feature with the master branch.
+
